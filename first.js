@@ -5,4 +5,4 @@ function greet(name){
 
 greet ("NIKHIL");
 
-operatorsObj.add(100,200);
+console.log(operatorsObj.add(100,200));
