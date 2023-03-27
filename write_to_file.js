@@ -8,13 +8,11 @@ fs.writeFile('greetings.txt', "successfully written into file", (err) => {
   });
 }
 
-const rl=readline.createInterface(
-    {
-        input:process.stdin,
-        output: process.tdout
-
-    }
-);
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+  });
+  
 
 rl.question('How was your day? ', (name) => {
     rl.close();
