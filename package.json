@@ -1,0 +1,21 @@
+{
+  "name": "timezone",
+  "version": "1.0.0",
+  "description": "practising Nodejs using npm",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikhilRaikar01/NodeJS-Practice.git"
+  },
+  "author": "nikhil raikar",
+  "license": "ISC",
+  "dependencies": {"moment":"^2.29.4"},
+  "bugs": {
+    "url": "https://github.com/NikhilRaikar01/NodeJS-Practice/issues"
+  },
+  "homepage": "https://github.com/NikhilRaikar01/NodeJS-Practice#readme"
+}
